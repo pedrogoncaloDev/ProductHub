@@ -1,0 +1,38 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2025-10-03T21:34:12.9293578-03:00",
+	"installedModules": {
+		"github.com/danieleteti/delphimvcframework": {
+			"name": "delphimvcframework",
+			"version": "master",
+			"hash": "6451abdfdccbfe84093bcc0b686cb65f",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse": {
+			"name": "horse",
+			"version": "3.1.9",
+			"hash": "f14018d51c2f9b7605a61fcc52410398",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/horse-cors": {
+			"name": "horse-cors",
+			"version": "1.0.6",
+			"hash": "6e8e0610d7adda5ffd983dfa49b49183",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		},
+		"github.com/hashload/jhonson": {
+			"name": "jhonson",
+			"version": "1.1.9",
+			"hash": "35c9925d57f66aef119636c3e1689552",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}

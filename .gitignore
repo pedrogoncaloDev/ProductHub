@@ -1,0 +1,91 @@
+# =============================================
+# Delphi - GitIgnore Template
+# =============================================
+
+# Diretórios de compilação do Delphi (gerados automaticamente)
+Win32/
+Win64/
+OSX64/
+OSXARM64/
+Android/
+Android64/
+iOSDevice64/
+Linux64/
+
+# Binários gerados pelo compilador Delphi
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.so
+*.apk
+*.drc
+*.map
+*.dres
+*.rsm
+*.tds
+*.dcu
+*.lib
+*.a
+*.o
+*.ocx
+
+# Arquivos de configuração e temporários
+*.cfg
+*.local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
+*.dsv
+*.tmp
+*.bak
+
+# Arquivos de histórico e backup
+__history/
+__recovery/
+*.~*
+
+# Arquivos de estatísticas (Castalia)
+*.stat
+
+# Vendor folder do Boss dependency manager
+# https://github.com/HashLoad/boss
+modules/
+
+# Arquivos de configuração .ini
+*.ini
+
+# =============================================
+# Arquivos OPcionAIS - Descomente com cuidado
+# =============================================
+
+# Resource files são binários contendo manifest, ícone do projeto e informações de versão.
+# Eles não podem ser visualizados como texto ou comparados por ferramentas diff. 
+# Considere substituí-los por arquivos .rc.
+#*.res
+
+# Arquivo de biblioteca de tipos (binário). Em versões antigas do Delphi deve ser armazenado.
+# Desde o Delphi 2009 é produzido a partir do arquivo .ridl e pode ser ignorado com segurança.
+#*.tlb
+
+# Arquivo Diagram Portfolio. Usado pelo editor de diagramas até o Delphi 7.
+# Descomente se não estiver usando diagramas ou usar versão mais recente do Delphi.
+#*.ddp
+
+# Arquivo Visual LiveBindings. Adicionado no Delphi XE2.
+# Descomente se não estiver usando o LiveBindings Designer.
+#*.vlb
+
+# Arquivo de configuração do Deployment Manager para seu projeto. Adicionado no Delphi XE2.
+# Descomente se não for desenvolvimento mobile e não usar recurso de debug remoto.
+#*.deployproj
+
+# Arquivos de objeto C++ produzidos quando a geração de arquivos de saída C/C++ está configurada.
+# Descomente se não estiver usando objetos externos (biblioteca zlib, por exemplo).
+#*.obj
+
+# Arquivos gerados automaticamente (informações duplicadas)
+#*.hpp
+#*Resource.rc
