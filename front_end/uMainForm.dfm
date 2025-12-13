@@ -35,8 +35,6 @@ object MainForm: TMainForm
     Padding.Bottom = 10
     ParentBackground = False
     TabOrder = 0
-    ExplicitTop = 50
-    ExplicitWidth = 1189
     object FlowPanelButtons: TFlowPanel
       Left = 20
       Top = 10
@@ -50,9 +48,16 @@ object MainForm: TMainForm
         Top = 0
         Width = 150
         Height = 40
+        Cursor = crHandPoint
         Caption = 'Atualizar Lista'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindow
+        Font.Height = -16
+        Font.Name = 'Roboto'
+        Font.Style = []
         ImageIndex = 3
         Images = ImageList
+        ParentFont = False
         TabOrder = 0
         OnClick = BtnRefreshProductsClick
       end
@@ -61,9 +66,16 @@ object MainForm: TMainForm
         Top = 0
         Width = 150
         Height = 40
+        Cursor = crHandPoint
         Caption = 'Criar Produto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindow
+        Font.Height = -16
+        Font.Name = 'Roboto'
+        Font.Style = []
         ImageIndex = 0
         Images = ImageList
+        ParentFont = False
         TabOrder = 1
         OnClick = BtnCreateProductClick
       end
@@ -72,9 +84,16 @@ object MainForm: TMainForm
         Top = 0
         Width = 150
         Height = 40
+        Cursor = crHandPoint
         Caption = 'Editar Produto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindow
+        Font.Height = -16
+        Font.Name = 'Roboto'
+        Font.Style = []
         ImageIndex = 1
         Images = ImageList
+        ParentFont = False
         TabOrder = 2
         OnClick = BtnEditProductClick
       end
@@ -83,9 +102,16 @@ object MainForm: TMainForm
         Top = 0
         Width = 150
         Height = 40
+        Cursor = crHandPoint
         Caption = 'Excluir Produto'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindow
+        Font.Height = -16
+        Font.Name = 'Roboto'
+        Font.Style = []
         ImageIndex = 2
         Images = ImageList
+        ParentFont = False
         TabOrder = 3
         OnClick = BtnDeleteProductClick
       end
@@ -103,9 +129,6 @@ object MainForm: TMainForm
     Padding.Right = 10
     Padding.Bottom = 10
     TabOrder = 1
-    ExplicitTop = 120
-    ExplicitWidth = 1189
-    ExplicitHeight = 532
     object DBGridProducts: TDBGrid
       Left = 10
       Top = 10
@@ -116,7 +139,13 @@ object MainForm: TMainForm
       DrawingStyle = gdsGradient
       GradientEndColor = clGainsboro
       GradientStartColor = 16316664
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Roboto'
+      Font.Style = []
       Options = [dgTitles, dgColLines, dgRowLines, dgRowSelect, dgConfirmDelete, dgCancelOnExit]
+      ParentFont = False
       ReadOnly = True
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET

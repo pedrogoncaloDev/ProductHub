@@ -17,51 +17,93 @@ object FrmProductForm: TFrmProductForm
   object lblCode: TLabel
     Left = 16
     Top = 16
-    Width = 39
-    Height = 15
+    Width = 50
+    Height = 19
     Caption = 'C'#243'digo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblName: TLabel
     Left = 208
     Top = 16
-    Width = 33
-    Height = 15
+    Width = 42
+    Height = 19
     Caption = 'Nome'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblDescription: TLabel
     Left = 16
     Top = 72
-    Width = 51
-    Height = 15
+    Width = 71
+    Height = 19
     Caption = 'Descri'#231#227'o'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblCategory: TLabel
     Left = 16
     Top = 216
-    Width = 51
-    Height = 15
+    Width = 69
+    Height = 19
     Caption = 'Categoria'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblUnit: TLabel
     Left = 272
     Top = 216
-    Width = 44
-    Height = 15
+    Width = 59
+    Height = 19
     Caption = 'Unidade'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblPrice: TLabel
     Left = 368
     Top = 216
-    Width = 30
-    Height = 15
+    Width = 41
+    Height = 19
     Caption = 'Pre'#231'o'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object lblStock: TLabel
     Left = 504
     Top = 216
-    Width = 42
-    Height = 15
+    Width = 57
+    Height = 19
     Caption = 'Estoque'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
   end
   object pnlBottom: TPanel
     Left = 0
@@ -69,6 +111,12 @@ object FrmProductForm: TFrmProductForm
     Width = 640
     Height = 56
     Align = alBottom
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 8
     object btnSave: TButton
       Left = 440
@@ -91,54 +139,96 @@ object FrmProductForm: TFrmProductForm
   end
   object edtCode: TEdit
     Left = 16
-    Top = 32
+    Top = 36
     Width = 180
-    Height = 23
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
   end
   object edtName: TEdit
     Left = 208
-    Top = 32
+    Top = 36
     Width = 416
-    Height = 23
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
   end
   object memDescription: TMemo
     Left = 16
-    Top = 88
+    Top = 91
     Width = 608
     Height = 120
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     ScrollBars = ssVertical
     TabOrder = 2
   end
   object edtCategory: TEdit
     Left = 16
-    Top = 232
+    Top = 236
     Width = 240
-    Height = 23
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 3
   end
   object cbUnit: TComboBox
     Left = 272
-    Top = 232
+    Top = 236
     Width = 80
-    Height = 23
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 4
   end
   object edtPrice: TEdit
     Left = 368
-    Top = 232
+    Top = 236
     Width = 120
-    Height = 23
+    Height = 27
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 5
   end
   object spnStock: TSpinEdit
     Left = 504
-    Top = 232
+    Top = 236
     Width = 120
-    Height = 24
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
     MaxValue = 2147483647
     MinValue = 0
+    ParentFont = False
     TabOrder = 6
     Value = 0
   end
@@ -149,6 +239,12 @@ object FrmProductForm: TFrmProductForm
     Height = 17
     Caption = 'Ativo'
     Checked = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
     State = cbChecked
     TabOrder = 7
   end
