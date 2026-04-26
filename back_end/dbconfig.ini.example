@@ -1,0 +1,6 @@
+[Database]
+DatabaseName=name_data_base
+Server=localhost
+Port=5432
+User=user
+Password=password
