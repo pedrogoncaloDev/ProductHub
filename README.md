@@ -1,7 +1,7 @@
 # CRUD de Produtos
 
 [![Delphi](https://img.shields.io/badge/Delphi-12%20Athens-blue?style=flat&logo=delphi)](https://www.embarcadero.com/products/delphi)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-green?style=flat&logo=postgresql)](https://www.postgresql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-green?style=flat&logo=postgresql)](https://www.postgresql.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Descrição
@@ -11,6 +11,14 @@ O **CRUD de Produtos** é uma aplicação desktop desenvolvida em Delphi usando 
 A aplicação permite o cadastro, edição, exclusão e listagem de produtos, exibindo informações como ID, Código, Nome, Descrição, Categoria, Unidade de Medida, Preço, Estoque, status de Ativo/Inativo, data de criação e atualização. Além da interface gráfica principal, o projeto inclui um módulo opcional de API REST para acesso externo aos dados.
 
 Este projeto foi desenvolvido como um desafio técnico, demonstrando boas práticas de desenvolvimento em Delphi, incluindo validações, formatação de dados e integração com ORM.
+
+## Configuração e Execução
+
+### 1. Clonagem do Repositório
+```bash
+git clone https://github.com/pedrogoncaloDev/crud_de_produtos.git
+cd crud_de_produtos
+```
 
 ## Tecnologias Utilizadas
 
@@ -47,7 +55,7 @@ Adicionalmente, o módulo de API REST (opcional) expõe endpoints para integraç
 ### Hardware e Software
 - **Sistema Operacional**: Windows 10 ou superior (64-bit).
 - **Delphi**: Versão 12 Athens (ou compatível) com pacotes instalados para FireDAC e DelphiMVCFramework.
-- **Banco de Dados**: PostgreSQL 12 ou superior (recomendado: versão 15).
+- **Banco de Dados**: PostgreSQL 16
 - **Dependências Delphi**:
   - DelphiMVCFramework (instalado via GetIt ou manualmente do repositório oficial).
   - Horse (para o módulo de API, instalado via GetIt).
@@ -56,9 +64,3 @@ Adicionalmente, o módulo de API REST (opcional) expõe endpoints para integraç
 ### Bibliotecas Externas
 - Certifique-se de que o projeto tenha as units necessárias: `MVCFramework`, `MVCActiveRecord`, `Horse`, e componentes FireDAC ativados.
 
-## Configuração e Execução
-
-### 1. Clonagem do Repositório
-```bash
-git clone https://github.com/seu-usuario/desafio-areco-crud-produtos.git
-cd desafio-areco-crud-produtos
