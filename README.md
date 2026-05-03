@@ -29,8 +29,8 @@ Este projeto foi desenvolvido como um desafio técnico (descrito no arquivo ), d
 
 ### 1. Clonagem do Repositório
 ```bash
-git clone https://github.com/pedrogoncaloDev/crud_de_produtos.git
-cd crud_de_produtos
+git clone https://github.com/pedrogoncaloDev/ProductHub.git
+cd ProductHub
 ```
 
 ### 2. Configuração do back-end
