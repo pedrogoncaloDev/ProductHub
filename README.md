@@ -6,7 +6,7 @@
 
 ## Descrição
 
-O **CRUD de Produtos** é uma aplicação desktop desenvolvida em Delphi usando o framework VCL (Visual Component Library). O projeto implementa operações básicas de CRUD (Create, Read, Update, Delete) para gerenciamento de produtos, com foco em usabilidade e integração com banco de dados.
+O **ProductHub** é uma aplicação desktop desenvolvida em Delphi usando o framework VCL (Visual Component Library). O projeto implementa operações básicas de CRUD (Create, Read, Update, Delete) para gerenciamento de produtos, com foco em usabilidade e integração com banco de dados.
 
 A aplicação permite o cadastro, edição, exclusão e listagem de produtos, exibindo informações como ID, Código, Nome, Descrição, Categoria, Unidade de Medida, Preço, Estoque, status de Ativo/Inativo, data de criação e atualização. Além da interface gráfica principal, o projeto inclui um módulo opcional de API REST para acesso externo aos dados.
 
