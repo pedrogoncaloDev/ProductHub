@@ -33,6 +33,33 @@ git clone https://github.com/pedrogoncaloDev/crud_de_produtos.git
 cd crud_de_produtos
 ```
 
+### 2. Configuração do back-end
+
+1. No PostgreSQL 16, crie um banco de dados com o nome de sua preferência.
+
+2. Na pasta `back_end`, crie o arquivo `dbconfig.ini` baseado no `dbconfig.ini.example`, preenchendo com as credenciais de conexão do banco.
+
+3. Instalação das dependências
+    
+    - **a.** Instale o Boss. Caso não tenha familiaridade, siga este vídeo: https://www.youtube.com/watch?v=UUuJm1Lh4ZA
+
+    - **b.** No diretório do projeto na pasta `back_end`, execute os comandos abaixo para inicializar e instalar as dependências:
+
+```bash
+        boss init
+        boss install horse
+        boss install horse-cors
+        boss install horse-jhonson
+```
+
+4. Adicione o caminho no PATH do sistema para evitar o erro de "[FireDAC][Phys][PG]-314. Cannot load vendor library [libpq.dll]".
+    1. Pesquise **"Variáveis de Ambiente"** no Windows
+    2. Em **Variáveis do Sistema**, edite o `Path`
+    3. Adicione: `C:\Program Files\PostgreSQL\16\bin`
+    4. **Reinicie o Delphi** após alterar o PATH
+
+5. Com tudo configurado, basta iniciar o servidor da pasta back_end e, após sua inicialização, executar o projeto da pasta front_end.
+
 ## Tecnologias Utilizadas
 
 - **Delphi 12 Athens (Win64)**: Linguagem principal e ambiente de desenvolvimento para a aplicação VCL.
