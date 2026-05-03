@@ -10,8 +10,21 @@ O **CRUD de Produtos** é uma aplicação desktop desenvolvida em Delphi usando 
 
 A aplicação permite o cadastro, edição, exclusão e listagem de produtos, exibindo informações como ID, Código, Nome, Descrição, Categoria, Unidade de Medida, Preço, Estoque, status de Ativo/Inativo, data de criação e atualização. Além da interface gráfica principal, o projeto inclui um módulo opcional de API REST para acesso externo aos dados.
 
-Este projeto foi desenvolvido como um desafio técnico, demonstrando boas práticas de desenvolvimento em Delphi, incluindo validações, formatação de dados e integração com ORM.
+Este projeto foi desenvolvido como um desafio técnico (descrito no arquivo ), demonstrando boas práticas de desenvolvimento em Delphi, incluindo validações, formatação de dados e integração com ORM.
 
+## Requisitos
+
+### Hardware e Software
+- **Sistema Operacional**: Windows 10 ou superior (64-bit).
+- **Delphi**: Versão 12 Athens (ou compatível) com pacotes instalados para FireDAC e DelphiMVCFramework.
+- **Banco de Dados**: PostgreSQL 16
+- **Dependências Delphi**:
+  - DelphiMVCFramework (instalado via GetIt ou manualmente do repositório oficial).
+  - Horse (para o módulo de API, instalado via GetIt).
+- **Ferramentas Opcionais**: Git para clonagem do repositório; pgAdmin ou DBeaver para gerenciamento do banco.
+
+### Bibliotecas Externas
+- Certifique-se de que o projeto tenha as units necessárias: `MVCFramework`, `MVCActiveRecord`, `Horse`, e componentes FireDAC ativados.
 ## Configuração e Execução
 
 ### 1. Clonagem do Repositório
@@ -49,18 +62,3 @@ O fluxo geral é:
 3. Para CRUD: Abertura de formulário modal, validação, persistência via ActiveRecord e recarregamento do grid.
 
 Adicionalmente, o módulo de API REST (opcional) expõe endpoints para integração externa, reutilizando o mesmo modelo de dados.
-
-## Requisitos
-
-### Hardware e Software
-- **Sistema Operacional**: Windows 10 ou superior (64-bit).
-- **Delphi**: Versão 12 Athens (ou compatível) com pacotes instalados para FireDAC e DelphiMVCFramework.
-- **Banco de Dados**: PostgreSQL 16
-- **Dependências Delphi**:
-  - DelphiMVCFramework (instalado via GetIt ou manualmente do repositório oficial).
-  - Horse (para o módulo de API, instalado via GetIt).
-- **Ferramentas Opcionais**: Git para clonagem do repositório; pgAdmin ou DBeaver para gerenciamento do banco.
-
-### Bibliotecas Externas
-- Certifique-se de que o projeto tenha as units necessárias: `MVCFramework`, `MVCActiveRecord`, `Horse`, e componentes FireDAC ativados.
-
