@@ -10,7 +10,7 @@ O **ProductHub** é uma aplicação desktop desenvolvida em Delphi usando o fram
 
 A aplicação permite o cadastro, edição, exclusão e listagem de produtos, exibindo informações como ID, Código, Nome, Descrição, Categoria, Unidade de Medida, Preço, Estoque, status de Ativo/Inativo, data de criação e atualização. Além da interface gráfica principal, o projeto inclui um módulo opcional de API REST para acesso externo aos dados.
 
-Este projeto foi desenvolvido como um desafio técnico (descrito no arquivo ), demonstrando boas práticas de desenvolvimento em Delphi, incluindo validações, formatação de dados e integração com ORM.
+Este projeto foi desenvolvido como um desafio técnico (descrito no arquivo desafio_delphi.pdf), demonstrando boas práticas de desenvolvimento em Delphi, incluindo validações, formatação de dados e integração com ORM.
 
 ## Requisitos
 
